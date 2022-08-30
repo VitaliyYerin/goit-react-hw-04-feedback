@@ -1,0 +1,18 @@
+.statsList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.listItem {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(33 79 120);
+}
+
+.listItem:last-child {
+  margin-bottom: 0px;
+}
