@@ -10,17 +10,17 @@
 .btn {
   padding: 0 10px;
   width: 100px;
-  background-color: rgb(133, 180, 222);
-  color: red;
+  background-color: transparent;
+  color: #000;
   height: 100%;
-  border: none;
+  border: 1px solid #000;
   border-radius: 20px;
   cursor: pointer;
 }
 
 .btn:hover, .btn:focus {
    color: #fff;
-   background-color: rgb(114, 79, 163);
+   background-color: #000;
 }
 
 .btn::first-letter {
